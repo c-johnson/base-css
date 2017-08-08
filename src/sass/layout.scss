@@ -1,0 +1,117 @@
+.container {
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  flex: 0 1 auto;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-right: var(--gutter-compensation, -0.5rem);
+  margin-left: var(--gutter-compensation, -0.5rem);
+}
+
+@media (min-width: 960px) {
+  .container {
+    padding: 24px 18px;
+    max-width: 800px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 960px) {
+
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+
+}
+
+/*
+iphone portrait (320 px)	310 px	352 px
+iphone landscape (480 px)	468 px	202 px
+ipad portrait (768 px)	750 px	920 px
+ipad landscape (1024 px)
+*/
+
+
+
+
+/*
+  Margin spacing utility classes
+*/
+
+.nomarg {
+  margin: 0;
+}
+
+.mb0 {
+  margin-bottom: 0;
+}
+
+.mb1 {
+  margin-bottom: 1rem;
+}
+
+.mb2 {
+  margin-bottom: 2rem;
+}
+
+.mb3 {
+  margin-bottom: 3rem;
+}
+
+.mb4 {
+  margin-bottom: 4rem;
+}
+
+.mb5 {
+  margin-bottom: 5rem;
+}
+
+.mb6 {
+  margin-bottom: 6rem;
+}
+
+.mb7 {
+  margin-bottom: 7rem;
+}
+
+.mb8 {
+  margin-bottom: 8rem;
+}
+
+.mb9 {
+  margin-bottom: 9rem;
+}
+
+.mb10 {
+  margin-bottom: 10rem;
+}
+
+/*
+  Width utility classes
+*/
+
+.md-w8 {
+
+}
+
+.w8 {
+  width: 8rem; // 24 px
+  margin: 0 1rem;
+}
+
+.w16 {
+  width: 16rem; // 24 px
+  margin: 0 1rem;
+}
+
+.w32 {
+  width: 32rem; // 24 px
+  margin: 0 1rem;
+}
+
+.box {
+  border: 1px solid black;
+  padding: 1rem 2rem;
+}
