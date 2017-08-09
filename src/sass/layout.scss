@@ -1,20 +1,15 @@
-.container {
-  margin: 0 auto;
-}
 
-.row {
-  display: flex;
-  flex: 0 1 auto;
-  flex-direction: row;
-  flex-wrap: wrap;
-  margin-right: var(--gutter-compensation, -0.5rem);
-  margin-left: var(--gutter-compensation, -0.5rem);
-}
 
 @media (min-width: 960px) {
   .container {
-    padding: 24px 18px;
+    // padding: 24px 18px;
     max-width: 800px;
+  }
+}
+
+@media (max-width: 960px) {
+  .container {
+    padding: 0 2rem;
   }
 }
 
@@ -92,26 +87,20 @@ ipad landscape (1024 px)
   Width utility classes
 */
 
-.md-w8 {
-
-}
-
 .w8 {
-  width: 8rem; // 24 px
-  margin: 0 1rem;
+  width: 8rem; // 48px
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 
 .w16 {
-  width: 16rem; // 24 px
-  margin: 0 1rem;
+  width: 16rem; // 96px
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 
 .w32 {
-  width: 32rem; // 24 px
-  margin: 0 1rem;
-}
-
-.box {
-  border: 1px solid black;
-  padding: 1rem 2rem;
+  width: 32rem; // 192px
+  margin-left: 1rem;
+  margin-right: 1rem;
 }

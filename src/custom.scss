@@ -71,7 +71,7 @@ ul.nav-links {
 .styleguide-body {
   section {
     padding: 48px 0;
-    border-bottom: 1px solid $pencil;
+    border-bottom: 1px solid $gray-light;
   }
 
   article:first-child {
@@ -93,6 +93,8 @@ ul.nav-links {
   text-align: right;
 }
 
-.bar-fill {
-  background-color: $aqua;
+.display-box {
+  border: 1px solid black;
+  padding: 1rem 2rem;
+  text-align: center;
 }

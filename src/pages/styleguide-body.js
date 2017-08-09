@@ -10,30 +10,99 @@ export class StyleguideBody extends Component {
           <p>As Urbit becomes ready for real user applications, it needs a world-class design philosophy. Fortunately, most of the work here has been done for us. Minimalism is pretty good. We're a fan of clean design, usable engineering paradigms, and other fun good stuff and positive words.</p>
         </section>
 
-        <section>
-          <h3 className="mb4">Geometry</h3>
-
+        <section className="section-geometry">
+          <h3 className="mb8">Geometry</h3>
+          <h4 className="mb4">Fixed</h4>
           <div className="row mb2">
-            <div className="w8 box">48</div>
-            <div className="w8 box">48</div>
-            <div className="w8 box">48</div>
+            <div className="w8 display-box">48</div>
+            <div className="w8 display-box">48</div>
+            <div className="w8 display-box">48</div>
           </div>
 
           <div className="row mb2">
-            <div className="w16 box">96</div>
-            <div className="w16 box">96</div>
-            <div className="w16 box">96</div>
+            <div className="w16 display-box">96</div>
+            <div className="w16 display-box">96</div>
+            <div className="w16 display-box">96</div>
           </div>
 
           <div className="row mb8">
-            <div className="w32 box">192</div>
-            <div className="w32 box">192</div>
-            <div className="w32 box">192</div>
+            <div className="w32 display-box mb2">192</div>
+            <div className="w32 display-box mb2">192</div>
+            <div className="w32 display-box mb2">192</div>
           </div>
 
-          <h4 className="mb4">Grid</h4>
-          <div className="row">
-            <div className="bar-fill col-md-3">.</div>
+          <h4 className="mb4">Fluid</h4>
+          <div className="row mb2">
+            <div className="col-xs-2">
+              <div className="display-box">2</div>
+            </div>
+            <div className="col-xs-7">
+              <div className="display-box">7</div>
+            </div>
+            <div className="col-xs-3">
+              <div className="display-box">3</div>
+            </div>
+          </div>
+
+          <div className="row mb2">
+            <div className="col-xs-4">
+              <div className="display-box">4</div>
+            </div>
+            <div className="col-xs-4">
+              <div className="display-box">4</div>
+            </div>
+            <div className="col-xs-4">
+              <div className="display-box">4</div>
+            </div>
+          </div>
+
+          <div className="row mb8">
+            <div className="col-xs-9">
+              <div className="display-box">9</div>
+            </div>
+            <div className="col-xs-2">
+              <div className="display-box">2</div>
+            </div>
+            <div className="col-xs-1">
+              <div className="display-box">1</div>
+            </div>
+          </div>
+
+          <h4 className="mb4">Flexible</h4>
+          <div className="row mb2">
+            <div className="col-sm-6 col-md-4">
+              <div className="display-box">sm6, md4</div>
+            </div>
+            <div className="col-sm-6 col-md-4">
+              <div className="display-box">sm6, md4</div>
+            </div>
+            <div className="col-sm-6 col-md-4">
+              <div className="display-box">sm6, md4</div>
+            </div>
+          </div>
+
+          <div className="row mb2">
+            <div className="col-xs-4">
+              <div className="display-box">4</div>
+            </div>
+            <div className="col-xs-4">
+              <div className="display-box">4</div>
+            </div>
+            <div className="col-xs-4">
+              <div className="display-box">4</div>
+            </div>
+          </div>
+
+          <div className="row mb8">
+            <div className="col-xs-9">
+              <div className="display-box">9</div>
+            </div>
+            <div className="col-xs-2">
+              <div className="display-box">2</div>
+            </div>
+            <div className="col-xs-1">
+              <div className="display-box">1</div>
+            </div>
           </div>
         </section>
 

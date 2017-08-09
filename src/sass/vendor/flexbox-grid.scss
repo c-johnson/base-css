@@ -16,13 +16,9 @@
   --container-lg: calc(var(--lg-min) + var(--gutter-width));
 }
 
-@custom-media --sm-viewport only screen and (min-width: 128rem);
-@custom-media --md-viewport only screen and (min-width: 160rem);
-@custom-media --lg-viewport only screen and (min-width: 192rem);
-
-// .col-md-3 {
-//   border: 3px solid black;
-// }
+@custom-media --sm-viewport only screen and (min-width: 128rem);  // 768px
+@custom-media --md-viewport only screen and (min-width: 160rem);  // 960px
+@custom-media --lg-viewport only screen and (min-width: 192rem);  // 1152px
 
 .container-fluid, .container {
   margin-right: auto;
@@ -241,7 +237,7 @@
   order: 1;
 }
 
-@media (--sm-viewport) {
+@media only screen and (min-width: 768px) {
   .container {
     width: var(--container-sm, 46rem);
   }
@@ -436,7 +432,7 @@
   }
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1024px) {
   .container {
     width: var(--container-md, 61rem);
   }

@@ -11,25 +11,25 @@ button {
 
   padding: 6px 12px;
   color: white;
-  background-color: $pencil;
+  background-color: $gray-light;
 
   margin: 0 0 6px;
 }
 
 .btn-primary {
-  background-color: $aqua;
+  background-color: $blue;
 }
 
 .btn-secondary {
-  background-color: $emerald;
+  background-color: $green;
 }
 
 .btn-tetiary {
-  background-color: $ash;
+  background-color: $gray;
 }
 
 .btn-warning {
-  background-color: $cherry;
+  background-color: $red;
 }
 
 .btn-group {
@@ -38,6 +38,6 @@ button {
   }
 
   .btn:not(.active) {
-    background-color: $shade;
+    background-color: $gray-light;
   }
 }

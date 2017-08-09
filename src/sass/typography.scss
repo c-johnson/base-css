@@ -14,7 +14,7 @@ body {
   font-family: "San Francisco Text", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 2.66rem;
   line-height: 4rem;
-  color: $charcoal;
+  color: $gray-dark;
 }
 
 a {
@@ -29,7 +29,7 @@ h1, h2, h3, h4, h5 {
   margin: 0;
   font-weight: 600;
   font-family: "Work Sans";
-  color: $charcoal;
+  color: $gray-dark;
 }
 
 h1, .h1 {
@@ -76,13 +76,17 @@ h5, .h5 {
 }
 
 .text-blue {
-  color: $aqua;
+  color: $blue;
 }
 
 .text-green {
-  color: $emerald;
+  color: $green;
 }
 
 .text-light {
-  color: $pencil;
+  color: $gray-light;
+}
+
+.highlight-blue {
+  background-color: $blue;
 }
