@@ -1,0 +1,43 @@
+@import "colors";
+
+button {
+  border: none;
+  outline: none;
+}
+
+.btn {
+  font-family: "Work Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 500;
+
+  padding: 6px 12px;
+  color: white;
+  background-color: $gray-light;
+
+  margin: 0 0 6px;
+}
+
+.btn-primary {
+  background-color: $blue;
+}
+
+.btn-secondary {
+  background-color: $green;
+}
+
+.btn-tetiary {
+  background-color: $gray;
+}
+
+.btn-warning {
+  background-color: $red;
+}
+
+.btn-group {
+  .btn {
+    display: inline-block;
+  }
+
+  .btn:not(.active) {
+    background-color: $gray-light;
+  }
+}

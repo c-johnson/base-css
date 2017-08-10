@@ -1,0 +1,16 @@
+{
+  "name": "urbit-base",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "node-sass-chokidar": "0.0.3",
+    "npm-run-all": "^4.0.2",
+    "simple-autoreload-server": "^0.2.6"
+  },
+  "scripts": {
+    "build": "node-sass-chokidar sass/base.scss -o ./",
+    "watch": "npm run build-css && node-sass-chokidar -w -o ./ sass/base.scss base.css",
+    "host": "node node_modules/simple-autoreload-server/bin/autoreload",
+    "serve": "npm-run-all -p watch host"
+  }
+}
