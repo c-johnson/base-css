@@ -18,11 +18,10 @@ That's it.  You can read a bit more about our thinking [here]().
 
 ```
 npm install
-npm run build
-npm start
+npm serve
 ```
 
-This should open a window at `http://localhost:3000/` where you can see the test page.
+This should open a window at `http://localhost:8080/` where you can see the test page.
 
 ## Contributing instructions
 
