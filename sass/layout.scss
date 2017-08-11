@@ -1,33 +1,3 @@
-
-
-@media (min-width: 960px) {
-  .container {
-    // padding: 24px 18px;
-    max-width: 800px;
-  }
-}
-
-@media (max-width: 960px) {
-  .container {
-    padding: 0 2rem;
-  }
-}
-
-@media (min-width: 768px) and (max-width: 960px) {
-
-}
-
-@media (min-width: 320px) and (max-width: 768px) {
-
-}
-
-/*
-iphone portrait (320 px)	310 px	352 px
-iphone landscape (480 px)	468 px	202 px
-ipad portrait (768 px)	750 px	920 px
-ipad landscape (1024 px)
-*/
-
 section {
   margin: 0 0 2rem;
   border: none;
